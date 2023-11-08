@@ -67,15 +67,41 @@ body{
 .home-text{
     width: 50%;
     height: 450px;
-    background-color: green;
     float: left;
     background-color: white;
 }
 .home-form {
     width: 50%;
     height: 450px;
-    background-color: yellow;
+    background-color: white;
     float: right;
+}
+.mainText{
+    font-family: mainText;
+    font-size: 25px;
+    margin: 25px;
+}
+.mainForm{
+    font-family: mainText;
+    font-size: 25px;
+    margin: 25px;
+}
+.mainForm .dropdown{
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    font-family: mainText;
+    font-size: 20px;
+    overflow:hidden;
+}
+.mainForm .submit {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 10px;
+    font-family: mainText;
+    font-size: 20px;
+    background-color: darkolivegreen;
 }
 
 /* 4. Template 1 */
