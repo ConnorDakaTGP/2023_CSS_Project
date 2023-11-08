@@ -8,6 +8,9 @@
 */
 
 /* 1. Main */
+body{
+    background-color: #E0E0E0;
+}
 @font-face {
     font-family: mainText;
     src: url('./fonts/oswald-v53-latin-regular.woff2');
@@ -66,6 +69,7 @@
     height: 450px;
     background-color: green;
     float: left;
+    background-color: white;
 }
 .home-form {
     width: 50%;
@@ -77,15 +81,21 @@
 /* 4. Template 1 */
 .tplt1-cover{
     width: 100%;
-    height: 50%;
+    height: 400px;
     float: left;
 }
 .tplt1-text{
     width: 100%;
-    height: 450px;
+    height: inherit;
     float: left;
-    background-color: yellow;
+    background-color: white;
 }
+.tplt1-text img{
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+
 
 /* 5. Template 2 */
 .tplt2-cover{
@@ -97,7 +107,24 @@
     width: 50%;
     height: 850px;
     float: left;
-    background-color: yellow;
+    background-color: white;
+}
+.tplt2-text table{
+    margin: 50px;
+}
+.tplt2-text td{
+    font-family: mainText;
+    src: url('./fonts/oswald-v53-latin-regular.woff2');
+    font-size: 40px;
+}
+.tplt2-text img{
+    width: 250px;
+}
+.tplt2-text ul{
+    margin: 50px;
+    font-family: mainText;
+    src: url('./fonts/oswald-v53-latin-regular.woff2');
+    font-size: 40px;
 }
 
 /* 6. Footer */
